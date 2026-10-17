@@ -15,7 +15,7 @@ on:
       SUPPORTED_GAME_VERSION:
         description: 'Game version the mod supports (supported_game_version field in metadata.json). Example: 1.12.* (leave empty to preserve existing)'
         required: false
-        default: '1.12.*'
+        default: '1.14.*'
         type: string
       MOD_TAGS:
         description: |
